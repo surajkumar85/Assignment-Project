@@ -1,0 +1,42 @@
+.inovative {
+  padding: 12rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.inovative__heading {
+  font-weight: 600;
+  font-size: 5.4rem;
+  margin-bottom: 3.4rem;
+  color: var(--heroheading-color);
+}
+
+.inovative__images {
+  flex: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 4.8rem 3.2rem;
+}
+.inovative__card {
+  width: 23rem;
+  background: #ffffff;
+  box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+  border-radius: 20px;
+  padding: 1.6rem;
+}
+.inovative__card:nth-child(2) {
+  align-self: flex-end;
+}
+.inovative__cardText {
+  font-weight: 600;
+  font-size: 2.4rem;
+  color: var(--secondary-color);
+  text-align: center;
+  margin-top: -7rem;
+  margin-bottom: 3.2rem;
+}
+.inovative__image {
+  width: 18rem;
+  transform: translateY(-10rem);
+}

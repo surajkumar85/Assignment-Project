@@ -1,0 +1,71 @@
+.services {
+  padding: 12rem;
+  text-align: center;
+}
+.services__heading {
+  font-weight: 600;
+  font-size: 5.4rem;
+  margin-bottom: 3.4rem;
+  color: var(--heroheading-color);
+}
+.services__paragraph {
+  max-width: 54.6rem;
+  margin: 0 auto;
+  margin-bottom: 7rem;
+}
+.services__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 4.8rem;
+}
+.services__card {
+  background: #ffffff;
+  box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+  border-radius: 2rem;
+  padding: 4rem;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+}
+.services__cardImage {
+  fill: var(--primary-color);
+  width: 11rem;
+  margin-bottom: 5.4rem;
+}
+.services__cardText {
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: var(--secondary-color);
+  margin-bottom: 3rem;
+}
+.services__learnMore {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+.services__card:hover {
+  background-color: var(--primary-color);
+  box-shadow: 0px 10px 50px 25px rgba(0, 126, 243, 0.26049);
+  transform: scale(1.05);
+}
+.services__card:hover .services__cardImage {
+  fill: #fff;
+}
+.services__card:hover .services__cardText {
+  color: #fff;
+}
+.services__card:hover .services__learnMore {
+  display: flex;
+}

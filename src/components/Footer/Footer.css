@@ -1,0 +1,26 @@
+.footer {
+  background-color: #ecf4ff;
+  padding-bottom: 6.4rem;
+}
+.footer .btn {
+  display: none;
+}
+.footer .navbar {
+  background-color: var(--background-color);
+}
+.footer__media {
+  padding: 6.4rem 12rem;
+}
+.footer__mediaIcon {
+  display: flex;
+  gap: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+.footer__img {
+  cursor: pointer;
+}
+.footer__copywright {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: var(--heroheading-color);
+}

@@ -1,0 +1,34 @@
+.newsletter {
+  padding: 12rem;
+}
+.newsletter__content {
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 2rem;
+  padding: 4.4rem 17rem;
+}
+.newsletter__heading,
+.newsletter__paragraph {
+  color: #fff;
+  text-align: center;
+}
+.newsletter__form {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 3rem;
+  margin-bottom: 6rem;
+}
+.newsletter__input {
+  width: 100%;
+  padding: 1.2rem 2.4rem;
+  outline: none;
+  border: none;
+  font-size: 2.4rem;
+  font-family: inherit;
+}
+.btn--send {
+  padding: 2.4rem 4.8rem;
+  border-radius: 30rem;
+}

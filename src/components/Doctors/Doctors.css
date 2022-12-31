@@ -1,0 +1,42 @@
+.doctors {
+  padding: 12rem;
+}
+.doctors__heading {
+  text-align: center;
+}
+.doctors__paragraph {
+  text-align: center;
+  width: 54rem;
+  margin: 0 auto;
+  margin-bottom: 6.8rem;
+}
+.doctors__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+}
+.doctors__card {
+  background: #ffffff;
+  box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+  border-radius: 20px;
+  min-width: 27rem;
+}
+.doctors__img {
+  width: 100%;
+}
+.doctors__cardContent {
+  padding: 2.4rem 3.2rem;
+}
+.doctors__name {
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: var(--secondary-color);
+  margin-bottom: 1.2rem;
+}
+.doctors__specification {
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 1.8rem;
+}

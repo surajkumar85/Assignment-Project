@@ -1,0 +1,39 @@
+.testimonials {
+  padding: 12rem;
+}
+.testimonials__reviews {
+  display: flex;
+  gap: 6.4rem;
+}
+.testimonials__review {
+  padding: 4.8rem 6.8rem;
+  flex: 1;
+  background: #ffffff;
+  box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+  border-radius: 2rem;
+  position: relative;
+}
+.testimonials__heading {
+  margin-bottom: 6.8rem;
+}
+.testimonials__author {
+  display: flex;
+  align-items: center;
+  gap: 2.2rem;
+}
+.testimonials__authorName {
+  font-weight: 600;
+  font-size: 2.4rem;
+  color: var(--secondary-color);
+  margin-bottom: 0.8rem;
+}
+.testimonials__patient {
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+.testimonials__coma {
+  position: absolute;
+  top: -2.4rem;
+  right: -2.4rem;
+}

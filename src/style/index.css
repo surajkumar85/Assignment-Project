@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+:root {
+  --background-color: #f8fdff;
+  --primary-color: #007ff4;
+  --secondary-color: #002348;
+  --heroheading-color: #003b79;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  line-height: 1;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.home {
+  background-color: var(--background-color);
+}
+.ml-2 {
+  margin-left: 3.2rem;
+}
+.py-1 {
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+}
+.btn--ghost {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+.web__paragraph {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.6;
+  color: var(--secondary-color);
+  margin-bottom: 4.4rem;
+}
